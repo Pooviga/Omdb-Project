@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HUNT MOVIES</title>
+	<link rel="stylesheet" href="movies.css">
+</head>
+<body>
+	<script src="movies.js"></script>
+	<div id="logo"> 
+		<p style="font-size:25px">&#x1F3AC; &nbsp;SEEK MOVIES</p>  
+	</div> 
+	<div class="glow">
+		<h1>HUNT MOVIES </h1>
+	</div>
+	<br><br><br>
+	<!-- <form> -->
+		<div class="forms">
+			<input id="search" type="text" placeholder="Search Movies .. " >
+			<button id="button" type="submit" onclick="search_function()">Hunt</button>
+			<br><br>
+			<input type="checkbox" id="check_box" name="check">
+	  		<label id=box for="check"> Click to view full Plot</label><br>
+		</div>
+	<!-- </form> -->
+	<br><br><br><br>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close" >&times;</span>
+			<div id="img">	
+				<img class="zoom" id="image" src="">
+				<p id=details1></p>
+			</div>	
+			<div id="scroll">	
+				<table class="center" style="width:100%">
+					<tr >
+						<td><b>IMDB RATING : &#11088; </b> </td>
+						<td id="details8"></td>
+					</tr>
+					<tr>
+						<td><b>YEAR OF RELEASE :</b> </td>
+						<td id="details2"></td>
+					</tr>
+					<tr >
+						<td><b>GENRE :</b> </td>
+						<td id="details3"></td>
+					</tr>
+					<tr >
+						<td><b>DIRECTOR :</b> </td>
+						<td id="details4"></td>
+					</tr>
+					<tr>
+						<td><b>ACTORS :</b></td>
+						<td id="details5"></td>
+					</tr>
+					<tr >
+						<td><b>LANGUAGE RELEASED :</b></td>
+						<td id="details6"></td>
+					</tr>
+					<tr >
+						<td>PLOT OF THE MOVIE :</td>
+						<td id="details7"></td>
+					</tr>
+				</table>
+			</div>
+		 </div>
+	</div>	 
+</body>
+</html>
